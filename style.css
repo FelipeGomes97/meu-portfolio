@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+@font-face {
+    font-family: 'fantasia';
+    src: url('Fontes/Fantasia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+Tipos de format ()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype 
+- truetype-aat (Apple Advanced Typography)
+- svg
+*/
+
+/* Celulares menores */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Celulares e alguns tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+    /* Tablets */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+}
+
+/* Notebooks */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* Desktop */
+@media (min-width: 1400px) {
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to top, black, white);
+    background-attachment: fixed;
+}
+h1, h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    background-image: linear-gradient(to top, black, grey);
+    border-radius: 2%;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    border: none;
+    padding: 0;
+    margin: 50px;
+}
+
+.img-logo {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    outline: 0;
+    margin: 15px;
+}
+
+.apresentacao1 {
+    display: grid;
+    margin: auto;
+    color: #fff;
+    width: 30%;
+    font-size: 16px;
+    padding: 0.4px;
+}
+
+.minha-foto1 {
+    margin: auto;
+    margin-top: auto;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
