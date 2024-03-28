@@ -42,7 +42,8 @@ Tipos de format ()
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    font-family: 'Cookie', cursive;
     background-image: linear-gradient(to top, black, white);
     background-attachment: fixed;
 }
@@ -53,35 +54,28 @@ h1, h2 {
 }
 
 p {
+    color: black;
     text-align: center;
-    font-size: 1.1em;
-    background-image: linear-gradient(to top, black, grey);
+    font-size: 2em;
+    background-color: #fff;
     border-radius: 2%;
 }
 
 ul li {
-    display: inline-block;
+    display: inline;
     list-style-type: none;
     border: none;
     padding: 0;
     margin: 50px;
 }
 
-.img-logo {
-    border: none;
-    border-radius: 50%;
-    padding: 0;
-    outline: 0;
-    margin: 15px;
-}
-
 .apresentacao1 {
     display: grid;
     margin: auto;
     color: #fff;
-    width: 30%;
+    width: 80%;
     font-size: 16px;
-    padding: 0.4px;
+    padding: 0;
 }
 
 .minha-foto1 {
@@ -90,4 +84,19 @@ ul li {
     border-radius: 50%;
     height: 300px;
     width: 300px;
+}
+
+.logos {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
 }
