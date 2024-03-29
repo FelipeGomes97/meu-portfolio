@@ -87,6 +87,9 @@ ul li {
 }
 
 .logos {
+    display: flex;
+    position: absolute;
+    
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -95,6 +98,7 @@ ul li {
 }
 
 a {
+    margin-left: 50px;
     display: inline-block;
     position: relative;
     text-decoration: none;
