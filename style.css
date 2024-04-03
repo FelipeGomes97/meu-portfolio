@@ -79,7 +79,14 @@ ul li {
     list-style-type: none;
     border: none;
     padding: 0;
-    margin: 10px;
+    margin: 2px 35px ;
+}
+
+ul {
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
 }
 
 hr {
@@ -100,17 +107,29 @@ hr {
     margin: auto;
     margin-top: auto;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+}
+
+.contato {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    font-size: 2em;
+    padding: 5px;
 }
 
 .logos {
     background-color: black;
     margin: 0;
-    display: grid;
     text-align: center;
-    text-decoration: none;
     padding: 0;
+}
+
+.img-logo {
+    width: 40px;
+    margin: 0;
 }
 
 a {
