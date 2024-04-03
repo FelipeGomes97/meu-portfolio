@@ -81,6 +81,10 @@ p {
     border-radius: 2%;
 }
 
+mark {
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
 ul li {
     display: inline-block;
     list-style-type: none;
