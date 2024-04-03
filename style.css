@@ -100,18 +100,38 @@ ul {
     align-items: center;
 }
 
+button {
+    background-color: #2CD46B;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    width: 130px;
+    height: 35px;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 hr {
     width: 80%;
 }
 
 .apresentacao1 {
     display: grid;
-    margin: auto;
+    margin: 0;
     text-align: center;
     color: #fff;
     width: 100%;
     font-size: 16px;
     padding: 0;
+}
+
+button:hover {
+    background-color: #2cd46cb2;
 }
 
 .minha-foto1 {
@@ -141,10 +161,11 @@ hr {
 .img-logo {
     width: 32px;
     margin: 0;
-    margin-bottom: 15px;
 }
 
 a {
+    color: black;
     text-decoration: none;
     text-align: center;
+    list-style-type: none;
 }
