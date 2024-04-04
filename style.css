@@ -70,15 +70,13 @@ h2 {
 
 p { 
     font-family: "Poppins", sans-serif;
-    position: relative;
     padding: 15px;
     margin-bottom: 0px;
     margin-top: 10px;
     color: black;
-    text-align: center;
-    font-size: 1.1em;
+    text-align: justify;
+    font-size: 1.2em;
     background-color: #F0F2F5;
-    border-radius: 2%;
 }
 
 mark {
@@ -94,7 +92,7 @@ ul li {
 }
 
 ul {
-    margin: 5px 0 30px;
+    margin: 5px 0 16px;
     padding: 0;
     text-align: center;
     align-items: center;
@@ -107,13 +105,26 @@ button {
     font-weight: 500;
     border: none;
     width: 130px;
-    height: 35px;
+    height: 40px;
     padding: 2px;
-    margin-top: 5px;
+    margin: 5px;
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-    list-style-type: none;
+}
+
+.btn {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.btn-fundo {
+    background-color: #F0F2F5;
+    
 }
 
 hr {
