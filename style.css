@@ -217,13 +217,12 @@ a {
 @media screen and (max-width: 960px) {
     
     body {
-        display: grid;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
     }
 
     .logo {
-        width: 80vw;
+        width: 80%;
         margin: 0;
         padding: 15px 0 10px;
         padding-left: 40px;
@@ -237,19 +236,19 @@ a {
     }
 
     .apresentacao1 > article > p {
-        width: 80vw;
+        width: 80%;
         margin: 40px;
     }
 
     .habilidades {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
     }
 
     .projetos {
-        width: 100vw;
+        width: 100%;
     }
 
     .projetos > h2 {
@@ -258,17 +257,18 @@ a {
     }
 
     .foto-psi {
-        width: 70vw;
+        width: 260px;
+        height: 100px;
     }
 
     .projetos > p {
-        width: 80vw;
+        width: 80%;
         margin: 0;
         padding: 5px 40px;
     }
 
     .btn-fundo {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
