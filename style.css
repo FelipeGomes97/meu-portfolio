@@ -264,9 +264,9 @@ a {
     }
 
     .projetos > p {
+        overflow-x: hidden;
         width: 80%;
         margin: 0;
-        padding: 15px;
         padding: 10px 40px;
     }
 
