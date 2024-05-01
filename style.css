@@ -1,67 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
-
-@font-face {
-    font-family: 'fantasia';
-    src: url('Fontes/Fantasia.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&display=swap');
 
 html {
-    height: 100%;
-    width: 100%;
-}
-
-/*
-Tipos de format ()
-- opentype (otf)
-- truetype (ttf)
-- embedded-opentype 
-- truetype-aat (Apple Advanced Typography)
-- svg
-*/
-
-/* Celulares menores */
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-
-/* Celulares e alguns tablets */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-    /* Tablets */
-@media (min-width: 992px) and (max-width: 1199.98px) {  
-}
-
-/* Notebooks */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-}
-
-/* Desktop */
-@media (min-width: 1400px) {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    display: grid;
     margin: 0;
-    font-family: 'Cookie', cursive;
+    font-family: "Poppins", sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
-h1 {
-    background-color: black;
-    color: #fff;
-    font-family: 'Cookie', cursive;
-    font-size: 4em;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 8px ;
-}
 
 h2 {
-    font-family: 'Cookie', cursive;
     font-weight: normal;
     font-size: 2em;
     text-align: center;
@@ -69,7 +25,6 @@ h2 {
 }
 
 p { 
-    font-family: "Poppins", sans-serif;
     padding: 15px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -113,6 +68,17 @@ button {
     text-decoration: none;
 }
 
+header {
+    background-color: black;
+    width: 100vw;
+}
+
+
+.logo {
+    padding-left: 500px;
+    margin-top: 20px;
+}
+
 .btn {
     text-align: center;
     position: relative;
@@ -123,8 +89,10 @@ button {
 }
 
 .btn-fundo {
+    text-align: center;
     margin-top: 0;
-    background-image: linear-gradient(to bottom, #F0F2F5 , black);
+    padding: 15px;
+    background-color: black;
 }
 
 hr {
@@ -132,13 +100,18 @@ hr {
 }
 
 .apresentacao1 {
-    display: grid;
-    margin: 0;
-    text-align: center;
+    display: inline-block;
     color: #fff;
     width: 100%;
+    margin-left: 0px;
     font-size: 16px;
-    padding: 0;
+    padding: 5px 0px;
+}
+
+.apresentacao1 > article > p {
+    background-color: #fff;
+    padding: 15px 520px 0 0;
+    margin: 10px 0px 20px 50px;
 }
 
 .habilidades {
@@ -149,15 +122,18 @@ hr {
     border: 0;
 }
 
-.habilidades p {
-    text-align: center;
+.habilidades h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
     font-weight: 500;
-    padding: 0;
+    text-align: center;
+    padding-top: 15px;
     margin: 0;
 }
 
 .habilidades ul {
     margin: 0;
+    padding: 0 0 20px;
 }
 
 .habilidades li {
@@ -169,11 +145,14 @@ button:hover {
 }
 
 .minha-foto1 {
-    margin: auto;
-    margin-top: auto;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 345px;
+    width: 380px;
 }
 
 .contato {
@@ -185,11 +164,23 @@ button:hover {
     padding: 5px;
 }
 
-.logos {
+footer {
     background-color: black;
     margin: 0;
     text-align: center;
     padding: 0;
+}
+
+footer > p {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    padding: 5px 0 25px;
+}
+
+footer > ul {
+    padding: 10px 0 0;
 }
 
 .img-logo {
@@ -197,17 +188,23 @@ button:hover {
     margin: 0;
 }
 
-.rodape {
-    font-size: 14px;
+.projetos {
     text-align: center;
     background-color: black;
     color: #fff;
-    margin: 0 12px;
-    padding: 0 12px 20px;
 }
 
-.linha-meio {
-    width: 20%;
+.projetos > p {
+    text-align: justify;
+    margin: auto;
+    width: 375px;
+    padding: 10px 400px;
+    background-color: black;
+    color: #fff;
+}
+
+.foto-psi {
+    width: 25vw;
 }
 
 a {
@@ -215,4 +212,97 @@ a {
     text-decoration: none;
     text-align: center;
     list-style-type: none;
+}
+
+@media screen and (max-width: 991.98px) {
+    
+    body {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .logo {
+        width: 80vw;
+        margin: 0;
+        padding: 15px 0 10px;
+        padding-left: 40px;
+    }
+
+    .minha-foto1 {
+        margin: 10px 0 15px 70px;
+        border-radius: 30px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .apresentacao1 > article > p {
+        display: block;
+        width: 80vw;
+        margin: 40px;
+    }
+
+    .habilidades {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .projetos {
+        width: 100vw;
+    }
+
+    .projetos > h2 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .foto-psi {
+        width: 70vw;
+    }
+
+    .projetos > p {
+        width: 80vw;
+        margin: 0;
+        padding: 15px;
+        padding: 10px 40px;
+    }
+
+    .btn-fundo {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer > p {
+        width: 80vw;
+        padding: 5px 0 25px;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 1537px) and (max-width: 1921px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .projetos > p {
+        margin: auto;
+        width: 450px;
+    }
+    
+    .logo {
+        margin: 0 200px;
+    }
+
 }
