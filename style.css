@@ -209,14 +209,17 @@ a {
     list-style-type: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
+    
+    * {
+        overflow-x: hidden;
+    }
     
     body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-        overflow-x: hidden;
     }
 
     .logo {
@@ -227,6 +230,7 @@ a {
     }
 
     .minha-foto1 {
+        float: none;
         margin: 10px 0 15px 70px;
         border-radius: 30px;
         height: 250px;
@@ -234,8 +238,11 @@ a {
     }
 
     .apresentacao1 > article > p {
+        display: grid;
+        text-align: justify;
         width: 80%;
-        margin: 40px;
+        margin: 0;
+        padding: 40px;
     }
 
     .habilidades {
@@ -282,7 +289,5 @@ a {
         padding: 5px 0 25px;
         margin: auto;
     }
-
-}
 
 }
