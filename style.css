@@ -220,7 +220,6 @@ a {
         display: grid;
         width: 100vw;
         height: 100vh;
-        overflow-x: hidden;
     }
 
     .logo {
@@ -265,7 +264,7 @@ a {
     .projetos > p {
         width: 80vw;
         margin: 0;
-        padding: 10px 40px;
+        padding: 5px 40px;
     }
 
     .btn-fundo {
