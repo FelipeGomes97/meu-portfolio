@@ -231,14 +231,13 @@ a {
 
     .minha-foto1 {
         float: none;
-        margin: 10px 0 15px 70px;
-        border-radius: 30px;
+        margin: 10px 0 15px 60px;
+        border-radius: 30%;
         height: 250px;
         width: 300px;
     }
 
     .apresentacao1 > article > p {
-        display: grid;
         text-align: justify;
         font-size: 16px;
         width: 85%;
@@ -280,6 +279,10 @@ a {
         padding: 0;
     }
 
+    .contato {
+        font-size: 25px;
+    }
+
     footer {
         width: 100vw;
         margin: 0;
@@ -288,10 +291,11 @@ a {
 
     footer > p {
         width: 80vw;
+        font-size: 15px;
         padding: 5px 0 25px;
         margin: auto;
     }
-
+    
 }
 
 @media (min-width: 1800px) and (max-width: 1921px) {
