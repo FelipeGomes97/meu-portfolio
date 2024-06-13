@@ -209,7 +209,7 @@ a {
     list-style-type: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 910px) {
     
     * {
         overflow-x: hidden;
@@ -296,6 +296,28 @@ a {
         margin: auto;
     }
     
+}
+
+@media (min-width: 911px) and (max-width: 1510px) {
+    
+    .logo {
+        padding: 0;
+        margin-left: 180px;
+    }
+
+    .projetos > p {
+        padding: 0;
+    }
+
+    .minha-foto1 {
+        margin-left: 250px;
+    }
+
+    .apresentacao1 > article > p {
+        float: left;
+        padding: 10px;
+    }
+
 }
 
 @media (min-width: 1800px) and (max-width: 1921px) {
