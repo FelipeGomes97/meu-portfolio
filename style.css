@@ -101,6 +101,7 @@ hr {
     margin-left: 0px;
     font-size: 16px;
     padding: 5px 0px;
+    visibility: hidden;
 }
 
 .apresentacao1 > article > p {
@@ -115,6 +116,7 @@ hr {
     font-family: "Poppins", sans-serif;
     margin: 0;
     border: 0;
+    visibility: hidden;
 }
 
 .habilidades h2 {
@@ -148,6 +150,7 @@ button:hover {
     border-radius: 30px;
     height: 345px;
     width: 380px;
+    visibility: hidden;
 }
 
 .contato {
@@ -189,7 +192,7 @@ footer > ul {
     color: #fff;
 }
 
-.projetos > p {
+.deslizar > p {
     text-align: justify;
     margin: auto;
     width: 375px;
@@ -254,6 +257,7 @@ a {
 
     .projetos {
         width: 100%;
+        padding-top: 20px;
     }
 
     .projetos > h2 {
@@ -266,11 +270,13 @@ a {
         height: 100px;
     }
 
-    .projetos > p {
+    .deslizar > p {
         width: 80%;
         margin: 0;
         font-size: 1em;
         padding: 5px 40px;
+        background-color: black;
+        color: #fff;
     }
 
     .btn-fundo {
