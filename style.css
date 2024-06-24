@@ -70,8 +70,9 @@ header {
 
 
 .logo {
-    padding-left: 500px;
-    margin-top: 20px;
+    padding-left: 450px;
+    padding: 20px 0 10px 450px;
+    width: 600px;
 }
 
 .btn {
@@ -227,8 +228,8 @@ a {
 
     .logo {
         width: 80%;
-        margin: 0;
-        padding: 15px 0 10px;
+        margin: 20px 0 10px 15px;
+        padding: 0;
         padding-left: 40px;
     }
 
