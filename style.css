@@ -213,7 +213,7 @@ a {
     list-style-type: none;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 767px) {
     
     * {
         overflow-x: hidden;
@@ -230,7 +230,7 @@ a {
         width: 80%;
         margin: 20px 0 10px 15px;
         padding: 0;
-        padding-left: 22px;
+        padding-left: 30px;
     }
 
     .minha-foto1 {
@@ -305,11 +305,106 @@ a {
     
 }
 
+@media (min-width: 768px) and (max-width: 910px) {
+    
+    * {
+        overflow-x: hidden;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 80%;
+        margin: 20px 0 10px 15px;
+        padding: 0;
+        padding-left: 70px;
+    }
+
+    .minha-foto1 {
+        float: none;
+        margin: 10px 0 15px 60px;
+        padding-left: 200px;
+        border-radius: 30%;
+        height: 250px;
+        width: 300px;
+    }
+
+    .apresentacao1 > article > p {
+        text-align: justify;
+        font-size: 16px;
+        width: 85%;
+        margin: 0;
+        padding: 5px 25px;
+        padding-left: 55px;
+    }
+
+    .habilidades {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .projetos {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .projetos > h2 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .foto-psi {
+        width: 260px;
+        height: 100px;
+    }
+
+    .deslizar > p {
+        width: 40%;
+        margin: 0;
+        font-size: 1em;
+        padding: 5px 40px;
+        padding-left: 230px;
+        background-color: black;
+        color: #fff;
+    }
+
+    .btn-fundo {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contato {
+        font-size: 25px;
+    }
+
+    footer {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer > p {
+        width: 80vw;
+        font-size: 15px;
+        padding: 5px 0 25px;
+        margin: auto;
+    }
+    
+}
+
 @media (min-width: 911px) and (max-width: 1510px) {
     
     .logo {
-        padding: 0;
-        margin-left: 180px;
+        padding: 15px 0;
+        margin-left: 350px;
     }
 
     .projetos > p {
@@ -317,12 +412,13 @@ a {
     }
 
     .minha-foto1 {
-        margin-left: 250px;
+        margin-left: 450px;
     }
 
     .apresentacao1 > article > p {
         float: left;
-        padding: 10px;
+        width: 70%;
+        padding-left: 150px;
     }
 
 }
