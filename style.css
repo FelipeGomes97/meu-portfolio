@@ -267,8 +267,8 @@ a {
     }
 
     .foto-psi {
-        width: 260px;
-        height: 100px;
+        width: 150px;
+        height: 80px;
     }
 
     .deslizar > p {
@@ -361,7 +361,7 @@ a {
     }
 
     .foto-psi {
-        width: 260px;
+        width: 220px;
         height: 100px;
     }
 
@@ -370,7 +370,7 @@ a {
         margin: 0;
         font-size: 1em;
         padding: 5px 40px;
-        padding-left: 230px;
+        padding-left: 250px;
         background-color: black;
         color: #fff;
     }
