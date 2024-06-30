@@ -203,7 +203,7 @@ footer > ul {
 }
 
 .foto-psi {
-    width: 25vw;
+    width: 300px;
 }
 
 a {
@@ -268,7 +268,7 @@ a {
 
     .foto-psi {
         width: 150px;
-        height: 80px;
+        height: 100px;
     }
 
     .deslizar > p {
@@ -361,8 +361,8 @@ a {
     }
 
     .foto-psi {
-        width: 220px;
-        height: 100px;
+        width: 200px;
+        height: 130px;
     }
 
     .deslizar > p {
